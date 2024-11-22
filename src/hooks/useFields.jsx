@@ -7,10 +7,12 @@ export const useFields = (type) => {
     setValue(event.target.value);
   };
 
-  return {
-    type,
-    value,
-    onChange,
+  return [
+    {
+      type,
+      value,
+      onChange,
+    },
     setValue,
-  };
+  ];
 };

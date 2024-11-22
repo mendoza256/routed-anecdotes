@@ -11,5 +11,6 @@ export const useFields = (type) => {
     type,
     value,
     onChange,
+    setValue,
   };
 };
